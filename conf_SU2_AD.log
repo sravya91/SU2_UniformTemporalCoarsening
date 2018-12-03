@@ -1,0 +1,164 @@
+checking build system type... x86_64-apple-darwin17.3.0
+checking host system type... x86_64-apple-darwin17.3.0
+checking target system type... x86_64-apple-darwin17.3.0
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... ../install-sh -c -d
+checking for gawk... no
+checking for mawk... no
+checking for nawk... no
+checking for awk... awk
+checking whether make sets $(MAKE)... yes
+checking for style of include used by make... GNU
+checking for mpicxx... mpicxx
+checking for C++ compiler default output file name... a.out
+checking whether the C++ compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether mpicxx accepts -g... yes
+checking dependency style of mpicxx... gcc3
+checking for mpicc... mpicc
+checking whether we are using the GNU C compiler... yes
+checking whether mpicc accepts -g... yes
+checking for mpicc option to accept ISO C89... none needed
+checking dependency style of mpicc... gcc3
+checking whether mpicc and cc understand -c and -o together... yes
+checking for ranlib... ranlib
+checking for a thread-safe mkdir -p... ../install-sh -c -d
+checking whether we are using the GNU C++ compiler... (cached) yes
+checking whether mpicxx accepts -g... (cached) yes
+checking dependency style of mpicxx... (cached) gcc3
+checking how to run the C preprocessor... mpicc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking size of short int... 2
+checking size of int... 4
+checking size of unsigned int... 4
+checking size of long int... 8
+checking size of float... 4
+checking size of double... 8
+checking size of void *... 8
+checking X11/Intrinsic.h usability... no
+checking X11/Intrinsic.h presence... no
+checking for X11/Intrinsic.h... no
+<<< Configuring library with Metis support >>>
+<<< Configuring library with Parmetis support >>>
+<<< Configuring library with CGNS support >>>
+checking for ../externals/codi/include/codi.hpp... yes
+checking for ../externals/adjointmpi/libAMPI.a... yes
+checking for ../externals/adjointmpi/include/ampi.h... yes
+configure: creating ./config.status
+config.status: creating externals/tecio/Makefile
+config.status: creating externals/metis/Makefile
+config.status: creating externals/parmetis/Makefile
+config.status: creating externals/cgns/Makefile
+config.status: creating Makefile
+config.status: creating externals/Makefile
+config.status: creating Common/lib/Makefile
+config.status: creating SU2_CFD/obj/Makefile
+config.status: creating SU2_DOT/obj/Makefile
+config.status: creating SU2_MSH/obj/Makefile
+config.status: creating SU2_DEF/obj/Makefile
+config.status: creating SU2_SOL/obj/Makefile
+config.status: creating SU2_GEO/obj/Makefile
+config.status: creating SU2_PY/Makefile
+config.status: creating SU2_PY/pySU2/Makefile
+config.status: executing depfiles commands
+
+
+-------------------------------------------------------------------------
+|    ___ _   _ ___                                                      |
+|   / __| | | |_  )   Release 5.0.0 'Raven'                             |
+|   \__ \ |_| |/ /                                                      |
+|   |___/\___//___|   Suite                                             |
+|                                                                       |
+-------------------------------------------------------------------------
+| SU2 Lead Dev.: Dr. Francisco Palacios, Francisco.D.Palacios@boeing.com|
+|                Dr. Thomas D. Economon, economon@stanford.edu          |
+-------------------------------------------------------------------------
+| SU2 Developers:                                                       |
+| - Prof. Juan J. Alonso's group at Stanford University.                |
+| - Prof. Piero Colonna's group at Delft University of Technology.      |
+| - Prof. Nicolas R. Gauger's group at Kaiserslautern U. of Technology. |
+| - Prof. Alberto Guardone's group at Polytechnic University of Milan.  |
+| - Prof. Rafael Palacios' group at Imperial College London.            |
+| - Prof. Edwin van der Weide's group at the University of Twente.      |
+| - Prof. Vincent Terrapon's group at the University of Liege.          |
+-------------------------------------------------------------------------
+| Copyright (C) 2012-2017 SU2, the open-source CFD code.                |
+|                                                                       |
+| SU2 is free software; you can redistribute it and/or                  |
+| modify it under the terms of the GNU Lesser General Public            |
+| License as published by the Free Software Foundation; either          |
+| version 2.1 of the License, or (at your option) any later version.    |
+|                                                                       |
+| SU2 is distributed in the hope that it will be useful,                |
+| but WITHOUT ANY WARRANTY; without even the implied warranty of        |
+| MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU      |
+| Lesser General Public License for more details.                       |
+|                                                                       |
+| You should have received a copy of the GNU Lesser General Public      |
+| License along with SU2. If not, see <http://www.gnu.org/licenses/>.   |
+-------------------------------------------------------------------------
+
+Build Configuration Summary:
+
+    Source code location: /Users/Sravya/Desktop/SU2_tmp_spatialcoarse
+    Install location: 	  /Users/Sravya/Desktop/SU2_tmp_spatialcoarse
+    Version:              5.0.0
+    C++ Compiler:         mpicxx
+    C Compiler:           mpicc
+    Preprocessor flags:   -DHAVE_MPI 
+    Compiler flags:       -g -O2
+    Linker flags:         
+    MPI support:          yes
+    Metis support:        yes
+    Parmetis support:     yes
+    TecIO support:        no
+    CGNS support:         yes
+    HDF5 support:         no
+    SZIP support:         no
+    ZLIB support:         no
+    Mutation++ support:   no
+    Jsoncpp support: 	  no
+    LAPACK support:       no
+    Datatype support:
+        double              no
+        complex             no
+        codi_reverse        yes
+        codi_forward        no
+
+    External includes:    -DHAVE_CGNS -I$(top_srcdir)/externals/cgns -I$(top_srcdir)/externals/cgns/adf -DHAVE_PARMETIS -I$(top_srcdir)/externals/parmetis/include -DHAVE_METIS -I$(top_srcdir)/externals/metis/include 
+    External libs:        $(top_builddir)/externals/cgns/libcgns.a $(top_builddir)/externals/parmetis/libparmetis.a $(top_builddir)/externals/metis/libmetis.a 
+
+    Build SU2_CFD:        yes
+    Build SU2_DOT:        yes
+    Build SU2_MSH:        no
+    Build SU2_DEF:        no
+    Build SU2_SOL:        yes
+    Build SU2_GEO:        no
+    Build Py Wrapper:     no
+
+Please be sure to add the $SU2_HOME and $SU2_RUN environment variables,
+and update your $PATH (and $PYTHONPATH if applicable) with $SU2_RUN.
+
+Based on the input to this configuration, add these lines to your .bashrc file:
+
+export SU2_RUN="/Users/Sravya/Desktop/SU2_tmp_spatialcoarse/bin"
+export SU2_HOME="/Users/Sravya/Desktop/SU2_tmp_spatialcoarse"
+export PATH=$PATH:$SU2_RUN
+export PYTHONPATH=$PYTHONPATH:$SU2_RUN
+
+

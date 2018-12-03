@@ -1,0 +1,81 @@
+make -C SU2_AD install
+make -C SU2_BASE install
+Making install in externals
+Making install in externals
+Making install in metis
+Making install in metis
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+Making install in parmetis
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+Making install in parmetis
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+Making install in cgns
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+Making install in cgns
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+Making install in Common/lib
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+Making install in Common/lib
+  CXX    ../src/libSU2_AD_a-math_op_structure.o
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+Making install in SU2_PY
+test -z "/Users/Sravya/Desktop/SU2_tmp_spatialcoarse/bin" || ../../install-sh -c -d "/Users/Sravya/Desktop/SU2_tmp_spatialcoarse/bin"
+test -z "/Users/Sravya/Desktop/SU2_tmp_spatialcoarse/bin" || ../../install-sh -c -d "/Users/Sravya/Desktop/SU2_tmp_spatialcoarse/bin"
+ /usr/bin/install -c ../../SU2_PY/continuous_adjoint.py ../../SU2_PY/finite_differences.py ../../SU2_PY/mesh_deformation.py ../../SU2_PY/parallel_computation.py ../../SU2_PY/parallel_computation_fsi.py ../../SU2_PY/package_tests.py ../../SU2_PY/patient_designspace.py ../../SU2_PY/shape_optimization.py ../../SU2_PY/merge_solution.py ../../SU2_PY/set_ffd_design_var.py ../../SU2_PY/compute_polar.py ../../SU2_PY/discrete_adjoint.py ../../SU2_PY/direct_differentiation.py ../../SU2_PY/fsi_computation.py ../../SU2_PY/SU2_CFD.py '/Users/Sravya/Desktop/SU2_tmp_spatialcoarse/bin'
+../../install-sh -c -d '/Users/Sravya/Desktop/SU2_tmp_spatialcoarse/bin/SU2/io'
+ /usr/bin/install -c -m 644  ../../SU2_PY/SU2/io/config.py ../../SU2_PY/SU2/io/config_options.py ../../SU2_PY/SU2/io/data.py ../../SU2_PY/SU2/io/filelock.py ../../SU2_PY/SU2/io/redirect.py ../../SU2_PY/SU2/io/state.py ../../SU2_PY/SU2/io/tools.py ../../SU2_PY/SU2/io/__init__.py '/Users/Sravya/Desktop/SU2_tmp_spatialcoarse/bin/SU2/io'
+../../install-sh -c -d '/Users/Sravya/Desktop/SU2_tmp_spatialcoarse/bin/FSI/util'
+ /usr/bin/install -c -m 644  ../../SU2_PY/FSI/util/__init__.py ../../SU2_PY/FSI/util/switch.py '/Users/Sravya/Desktop/SU2_tmp_spatialcoarse/bin/FSI/util'
+../../install-sh -c -d '/Users/Sravya/Desktop/SU2_tmp_spatialcoarse/bin/SU2/opt'
+ /usr/bin/install -c -m 644  ../../SU2_PY/SU2/opt/project.py ../../SU2_PY/SU2/opt/scipy_tools.py ../../SU2_PY/SU2/opt/server.py ../../SU2_PY/SU2/opt/__init__.py '/Users/Sravya/Desktop/SU2_tmp_spatialcoarse/bin/SU2/opt'
+../../install-sh -c -d '/Users/Sravya/Desktop/SU2_tmp_spatialcoarse/bin/FSI'
+ /usr/bin/install -c -m 644  ../../SU2_PY/FSI/__init__.py ../../SU2_PY/FSI/FSIInterface.py ../../SU2_PY/FSI/PitchPlungeAirfoilStructuralTester.py '/Users/Sravya/Desktop/SU2_tmp_spatialcoarse/bin/FSI'
+../../install-sh -c -d '/Users/Sravya/Desktop/SU2_tmp_spatialcoarse/bin/SU2/util'
+ /usr/bin/install -c -m 644  ../../SU2_PY/SU2/util/bunch.py ../../SU2_PY/SU2/util/filter_adjoint.py ../../SU2_PY/SU2/util/lhc_unif.py ../../SU2_PY/SU2/util/misc.py ../../SU2_PY/SU2/util/mp_eval.py ../../SU2_PY/SU2/util/ordered_bunch.py ../../SU2_PY/SU2/util/ordered_dict.py ../../SU2_PY/SU2/util/plot.py ../../SU2_PY/SU2/util/polarSweepLib.py ../../SU2_PY/SU2/util/pyCppTap.py ../../SU2_PY/SU2/util/switch.py ../../SU2_PY/SU2/util/which.py ../../SU2_PY/SU2/util/__init__.py '/Users/Sravya/Desktop/SU2_tmp_spatialcoarse/bin/SU2/util'
+../../install-sh -c -d '/Users/Sravya/Desktop/SU2_tmp_spatialcoarse/bin/SU2/mesh'
+ /usr/bin/install -c -m 644  ../../SU2_PY/SU2/mesh/adapt.py ../../SU2_PY/SU2/mesh/tools.py ../../SU2_PY/SU2/mesh/__init__.py '/Users/Sravya/Desktop/SU2_tmp_spatialcoarse/bin/SU2/mesh'
+../../install-sh -c -d '/Users/Sravya/Desktop/SU2_tmp_spatialcoarse/bin/SU2/eval'
+ /usr/bin/install -c -m 644  ../../SU2_PY/SU2/eval/design.py ../../SU2_PY/SU2/eval/functions.py ../../SU2_PY/SU2/eval/gradients.py ../../SU2_PY/SU2/eval/__init__.py '/Users/Sravya/Desktop/SU2_tmp_spatialcoarse/bin/SU2/eval'
+../../install-sh -c -d '/Users/Sravya/Desktop/SU2_tmp_spatialcoarse/bin/FSI/io'
+ /usr/bin/install -c -m 644  ../../SU2_PY/FSI/io/__init__.py ../../SU2_PY/FSI/io/FSI_config.py '/Users/Sravya/Desktop/SU2_tmp_spatialcoarse/bin/FSI/io'
+../../install-sh -c -d '/Users/Sravya/Desktop/SU2_tmp_spatialcoarse/bin/SU2/run'
+ /usr/bin/install -c -m 644  ../../SU2_PY/SU2/run/adaptation.py ../../SU2_PY/SU2/run/adjoint.py ../../SU2_PY/SU2/run/deform.py ../../SU2_PY/SU2/run/direct.py ../../SU2_PY/SU2/run/interface.py ../../SU2_PY/SU2/run/merge.py ../../SU2_PY/SU2/run/geometry.py ../../SU2_PY/SU2/run/projection.py ../../SU2_PY/SU2/run/__init__.py '/Users/Sravya/Desktop/SU2_tmp_spatialcoarse/bin/SU2/run'
+../../install-sh -c -d '/Users/Sravya/Desktop/SU2_tmp_spatialcoarse/bin/SU2'
+ /usr/bin/install -c -m 644  ../../SU2_PY/SU2/__init__.py '/Users/Sravya/Desktop/SU2_tmp_spatialcoarse/bin/SU2'
+Making install in SU2_CFD/obj
+test -z "/Users/Sravya/Desktop/SU2_tmp_spatialcoarse/bin" || ../../../install-sh -c -d "/Users/Sravya/Desktop/SU2_tmp_spatialcoarse/bin"
+make[3]: Nothing to be done for `install-data-am'.
+  /usr/bin/install -c ../bin/SU2_CFD '/Users/Sravya/Desktop/SU2_tmp_spatialcoarse/bin'
+Making install in SU2_DOT/obj
+test -z "/Users/Sravya/Desktop/SU2_tmp_spatialcoarse/bin" || ../../../install-sh -c -d "/Users/Sravya/Desktop/SU2_tmp_spatialcoarse/bin"
+make[3]: Nothing to be done for `install-data-am'.
+  /usr/bin/install -c ../bin/SU2_DOT '/Users/Sravya/Desktop/SU2_tmp_spatialcoarse/bin'
+Making install in SU2_MSH/obj
+test -z "/Users/Sravya/Desktop/SU2_tmp_spatialcoarse/bin" || ../../../install-sh -c -d "/Users/Sravya/Desktop/SU2_tmp_spatialcoarse/bin"
+make[3]: Nothing to be done for `install-data-am'.
+  /usr/bin/install -c ../bin/SU2_MSH '/Users/Sravya/Desktop/SU2_tmp_spatialcoarse/bin'
+Making install in SU2_DEF/obj
+test -z "/Users/Sravya/Desktop/SU2_tmp_spatialcoarse/bin" || ../../../install-sh -c -d "/Users/Sravya/Desktop/SU2_tmp_spatialcoarse/bin"
+make[3]: Nothing to be done for `install-data-am'.
+  /usr/bin/install -c ../bin/SU2_DEF '/Users/Sravya/Desktop/SU2_tmp_spatialcoarse/bin'
+Making install in SU2_SOL/obj
+test -z "/Users/Sravya/Desktop/SU2_tmp_spatialcoarse/bin" || ../../../install-sh -c -d "/Users/Sravya/Desktop/SU2_tmp_spatialcoarse/bin"
+make[3]: Nothing to be done for `install-data-am'.
+  /usr/bin/install -c ../bin/SU2_SOL '/Users/Sravya/Desktop/SU2_tmp_spatialcoarse/bin'
+Making install in SU2_GEO/obj
+test -z "/Users/Sravya/Desktop/SU2_tmp_spatialcoarse/bin" || ../../../install-sh -c -d "/Users/Sravya/Desktop/SU2_tmp_spatialcoarse/bin"
+make[3]: Nothing to be done for `install-data-am'.
+  /usr/bin/install -c ../bin/SU2_GEO '/Users/Sravya/Desktop/SU2_tmp_spatialcoarse/bin'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
